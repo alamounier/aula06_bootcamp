@@ -1,0 +1,4 @@
+#arquivo que o flake irá ler antes de executar a formatação. Devido a incompatibilidades entre as diferentes lib's (black, blue)
+[flake8]
+max-line-lenght = 89
+extend-ignore = E203,E701,W291
